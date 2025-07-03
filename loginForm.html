@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Welcome. Please log in.</p>
+
+
+        <form>
+            <label for="UsernameInput">Username:</label><input type="text" id="UsernameInput"/><br/>
+            <label for="passwordInput">Password:</label><input type="password" id="passwordInput"/>
+            <p id="message"></p>
+            <br/><br/>
+            <a href="#">Log in</a>
+          
+        </form>
+
+    <script>
+        function verifyUser(){
+            var username= document.getElementById("usernameInput").value;
+            var password= document.getElementById("passwordInput").value;
+        }
+    </script>
+    </body>
+</html>
